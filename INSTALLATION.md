@@ -52,11 +52,11 @@ git clone https://github.com/louis-adriano/nextjs16-agent-skills.git
 
 1. Open VS Code
 2. Go to Settings (`File` → `Preferences` → `Settings` or press `Cmd/Ctrl + ,`)
-3. Search for "GitHub Copilot Agent Skills"
-4. Click "Edit in settings.json"
-5. Add the path to the `.claude` directory
+3. Search for "copilot" or "agent skills"
+4. Look for settings related to GitHub Copilot skills or custom agent skills
+5. Add the path to the `.claude` directory (exact setting name may vary by version)
 
-**Option B: Using Settings JSON Directly**
+**Option B: Using Settings JSON Directly (Recommended)**
 
 1. Open Command Palette (`Cmd/Ctrl + Shift + P`)
 2. Type "Preferences: Open User Settings (JSON)"
@@ -69,6 +69,8 @@ git clone https://github.com/louis-adriano/nextjs16-agent-skills.git
   ]
 }
 ```
+
+> **Note:** The setting name `github.copilot.agent.skills` may vary depending on your VS Code and GitHub Copilot extension versions. If this doesn't work, try placing the `.claude` folder directly in your project (see Method 2).
 
 **Example paths:**
 
@@ -238,8 +240,9 @@ Once installed, explore the available skills:
 
 ## Additional Resources
 
-- [VS Code Agent Skills Documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills)
-- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [VS Code Copilot Documentation](https://code.visualstudio.com/docs/copilot) - Official VS Code Copilot docs
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot) - GitHub's official Copilot documentation
+- [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills) - Learn about agent skills
 - [Repository Issues](https://github.com/gocallum/nextjs16-agent-skills/issues) - Report problems or ask questions
 
 ---
