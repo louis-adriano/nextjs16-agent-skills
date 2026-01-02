@@ -8,6 +8,12 @@ A comprehensive collection of skills and guides for building intelligent AI agen
 
 ---
 
+## 🚀 Quick Start
+
+**Want to use these skills in VS Code?** Jump to the [Installation](#installation) section below for step-by-step instructions on setting up these Agent Skills with GitHub Copilot.
+
+---
+
 ## Overview
 
 This project provides a curated collection of skills focused on building production-ready AI agent applications. Each skill is a comprehensive guide that covers key facts, best practices, code examples, and architectural patterns for specific technologies.
@@ -95,6 +101,53 @@ The skills are structured to be both human-readable and machine-parseable, makin
 
 ---
 
+## Installation
+
+### Installing Skills in VS Code
+
+To use these AI Agent Skills with VS Code Copilot, follow these steps:
+
+> **📖 For detailed installation instructions, troubleshooting, and advanced setup, see [INSTALLATION.md](INSTALLATION.md)**
+
+#### Option 1: Clone the Repository (Recommended)
+
+1. **Clone this repository** to your local machine:
+   ```bash
+   git clone https://github.com/gocallum/nextjs16-agent-skills.git
+   ```
+
+2. **Configure VS Code to use the skills:**
+   - Open VS Code Settings (File → Preferences → Settings or `Cmd/Ctrl + ,`)
+   - Search for "GitHub Copilot Agent Skills"
+   - Add the path to the `.claude` directory from this repository
+
+3. **Alternative: Use VS Code Settings JSON**
+   - Open VS Code Settings JSON (`Cmd/Ctrl + Shift + P` → "Preferences: Open User Settings (JSON)")
+   - Add the following configuration:
+   ```json
+   {
+     "github.copilot.agent.skills": [
+       "/path/to/nextjs16-agent-skills/.claude"
+     ]
+   }
+   ```
+   Replace `/path/to/nextjs16-agent-skills/.claude` with the actual path to the `.claude` directory on your machine.
+
+#### Option 2: Copy Skills to Your Project
+
+1. **Copy the `.claude` folder** from this repository into your project's root directory
+2. **VS Code will automatically detect** the skills in your project's `.claude` folder
+3. **Skills are now available** for GitHub Copilot to use in that specific project
+
+#### Verify Installation
+
+Once installed, you can verify the skills are available by:
+- Opening GitHub Copilot Chat in VS Code
+- Asking questions related to Next.js 16, Prisma, AI SDK, or other covered topics
+- Copilot will use the skills to provide more accurate and detailed responses
+
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -102,6 +155,7 @@ The skills are structured to be both human-readable and machine-parseable, makin
 - Node.js 20.9+
 - TypeScript 5+
 - pnpm (recommended package manager)
+- **VS Code with GitHub Copilot** (for using the skills)
 
 ### Using the Skills
 
