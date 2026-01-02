@@ -121,7 +121,7 @@ To use these AI Agent Skills with VS Code Copilot, follow these steps:
    - Search for "copilot" or "agent skills"
    - Look for a setting related to GitHub Copilot skills or custom skills
    - Add the path to the `.claude` directory from this repository
-   - *Note: The exact setting name may vary by VS Code version*
+   - *Note: The exact setting name may vary by VS Code version. If you can't find it in the UI, use the JSON method below instead.*
 
 3. **Alternative: Use VS Code Settings JSON**
    - Open VS Code Settings JSON (`Cmd/Ctrl + Shift + P` → "Preferences: Open User Settings (JSON)")

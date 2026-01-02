@@ -58,6 +58,8 @@ git clone https://github.com/louis-adriano/nextjs16-agent-skills.git
 
 **Option B: Using Settings JSON Directly (Recommended)**
 
+This is the most reliable method across different VS Code versions.
+
 1. Open Command Palette (`Cmd/Ctrl + Shift + P`)
 2. Type "Preferences: Open User Settings (JSON)"
 3. Add the following configuration:
@@ -70,7 +72,7 @@ git clone https://github.com/louis-adriano/nextjs16-agent-skills.git
 }
 ```
 
-> **Note:** The setting name `github.copilot.agent.skills` may vary depending on your VS Code and GitHub Copilot extension versions. If this doesn't work, try placing the `.claude` folder directly in your project (see Method 2).
+> **Note:** The setting name `github.copilot.agent.skills` is the most common configuration. If this doesn't work with your version, try placing the `.claude` folder directly in your project (see Method 2 below).
 
 **Example paths:**
 
